@@ -35,8 +35,8 @@ st.markdown(
     }
 
     /* Custom font color for all text in main content */
-    .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress .stHeading{
-        color: #ffffff;  /* Dark gray text */
+    .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress .stHeading h1{
+        color: #4A4A4A;  /* Dark gray text */
     }
 
     /* Custom progress bar color */
@@ -50,8 +50,8 @@ st.markdown(
         font-size: 18px; /* Optional: Change the font size */
     }
 
-    [data-testid="stHeading"] {
-        color: #000000;
+    [data-testid="stHeadingWithActionElements"] {
+        color: #4A4A4A;
     }
 
     </style>
