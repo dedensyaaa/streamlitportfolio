@@ -50,6 +50,10 @@ st.markdown(
         font-size: 18px; /* Optional: Change the font size */
     }
 
+    [data-testid="stHeading"] {
+        color: #000000;
+    }
+
     </style>
     """, 
     unsafe_allow_html=True
