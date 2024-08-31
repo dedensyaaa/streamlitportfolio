@@ -29,14 +29,14 @@ st.markdown(
         padding: 100px;
     }
 
-    /* Custom font color for headers in main content */
-    .stApp .stMarkdown h1, .stApp .stMarkdown h2, .stApp .stMarkdown h3 {
-        color: #000000;  /* Black header text */
+    /* More specific selector with !important to enforce black color */
+    .stApp h1, .stApp h2, .stApp h3 {
+        color: #000000 !important;  /* Black header text */
     }
 
     /* Custom font color for all text in main content */
     .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress{
-        color: #4A4A4A;  /* Dark gray text */
+        color: #4A4A4A !important;  /* Dark gray text */
     }
 
     /* Custom progress bar color */
