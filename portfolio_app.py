@@ -35,7 +35,7 @@ st.markdown(
     }
 
     /* Custom font color for all text in main content */
-    .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress .stHeading h1{
+    .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress{
         color: #4A4A4A;  /* Dark gray text */
     }
 
@@ -50,7 +50,7 @@ st.markdown(
         font-size: 18px; /* Optional: Change the font size */
     }
 
-    [data-testid="stHeadingWithActionElements"] {
+    [data-testid="stHeading"] {
         color: #4A4A4A;
     }
 
