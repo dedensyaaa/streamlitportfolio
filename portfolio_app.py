@@ -36,7 +36,7 @@ st.markdown(
 
     /* Custom font color for all text in main content */
     .stApp .stMarkdown, .stApp .stTextInput, .stApp .stTextArea, .stApp .stButton, .stApp .stImage, .stApp .stProgress .stHeading{
-        color: #4A4A4A;  /* Dark gray text */
+        color: #ffffff;  /* Dark gray text */
     }
 
     /* Custom progress bar color */
